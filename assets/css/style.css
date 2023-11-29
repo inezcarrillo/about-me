@@ -2,7 +2,9 @@ body{
     background-color: darkgrey;
 }
 
-.header h1 {
+.header {
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: deeppink;
-
+    background-color: black;
 }
