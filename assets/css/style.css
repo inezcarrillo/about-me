@@ -1,5 +1,6 @@
 body{
     background-color: lightpink;
+    display: contents;
 }
 
 .header {
@@ -11,9 +12,9 @@ body{
 }
 
 .header div ul li {
-    margin-right: 70px;
+    margin-right: 20px;
     color: pink;
-    display: inline;
+    display: inline-block;
 }
 
 .About-me {
