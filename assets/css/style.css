@@ -1,22 +1,27 @@
 body{
-    background-color: darkgrey;
+    background-color: lightpink;
 }
 
 .header {
-    padding: 20px;
+    padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: lightgrey;
     background-color: lightpink;
-    font-size: 40px;
+    font-size: 20px;
 }
-.header div ul {
+.header div {
     display: inline-block;
-    margin-left: 25px;
     color: cornsilk;
 }
 
-.li {
-    margin-left: auto;
+.header ul li {
+    margin-right: auto;
     color: pink;
+
 }
 
+.content{
+    width: 80%;
+    display: inline-block;
+    margin: 20px;
+}
