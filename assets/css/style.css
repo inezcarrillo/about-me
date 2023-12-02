@@ -16,11 +16,6 @@ body{
     display: inline;
 }
 
-.content{
-    width: 80%;
-    display: inline-block;
-}
-
 .About-me {
     background-color: lightcoral;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
