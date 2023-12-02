@@ -9,19 +9,22 @@ body{
     background-color: lightpink;
     font-size: 20px;
 }
-.header div {
-    display: inline-block;
-    color: cornsilk;
-}
 
 .header ul li {
-    margin-right: auto;
+    margin-right: 10px;
     color: pink;
-
+    display: inline;
 }
 
 .content{
     width: 80%;
     display: inline-block;
-    margin: 20px;
+}
+
+.h2 {
+    background-color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: darkgrey;
 }
