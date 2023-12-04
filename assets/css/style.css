@@ -24,7 +24,7 @@ header nav ul li {
 header h1 {
     display: inline-block;
     font-size: 36px;
-    color: rgb(163, 158, 158);
+    color: rgb(105, 102, 102);
 }
 
 .h2{
@@ -34,11 +34,32 @@ header h1 {
 }
 
 .About-Me {
-    background-color: rgb(248, 161, 200);
+    background-color: rgb(244, 109, 150);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     margin-bottom: 20px;
-    color: rgb(8, 8, 8);
+    color: rgb(105, 102, 102);
+}
+
+.About-Me p {
+    margin: 50px 50px;
+    width: 100%;
+}
+
+.flex-row2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    margin: 50px 50px;
+    width: 50%;
+}
+.img{
+    display: flex;
+    flex-wrap: right;
+}
+.About-Me h2 {
+    text-align: center;
+    text-decoration-line: underline;
 }
 
 header nav{
@@ -59,5 +80,48 @@ header nav{
 }
 
 a {
-    color: white;
+    color: rgb(105, 102, 102);
+}
+
+.Work {
+    background-color: rgb(244, 109, 150);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(105, 102, 102);
+    text-decoration-line: underline;
+}
+
+.Work ul li a {
+   display: url("../images/refactor-website.png");
+}
+
+.Contact {
+    background-color: rgb(244, 109, 150);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(105, 102, 102);
+    text-decoration-line: underline;
+}
+
+.Resume {
+    background-color: rgb(244, 109, 150);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(105, 102, 102);
+    text-decoration-line: underline;
+}
+
+.Contact li {
+    display: inline-block;
+}
+
+.footer h3 {
+    padding: 30px;
+    clear: both;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(105, 102, 102);
 }

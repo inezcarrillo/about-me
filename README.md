@@ -3,7 +3,7 @@ Welcome to my website!
 In this website, you will find information on who I am and a brief history. 
 
 ## Description
-This challenge involved us students to create a portfolio web application from scratch to test out skills, and knowlegde of how much we've learned during class and how much we're able to retain and actually use to build this portfolio.
+The purpose of this challenge to create a portfolio from the skills we have learned in class. 
 
 ## User Story
 ```
