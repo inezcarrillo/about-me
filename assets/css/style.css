@@ -95,16 +95,17 @@ a {
     color: rgb(105, 102, 102);
     text-decoration-line: underline;
     list-style: none;
-    text-align: right;
+    text-align: left;
 }
 
-.surf-report {
-    background-image: url(../images/refactor-website.png);
-    width: 150px;
-    height: 210px;
-    background-size: contain;
-    background-repeat: no-repeat;
+.Work flex-row2 {
+     display: flex;
+    justify-content: right;
+    margin: 50px 50px;
+    /* width: 50%; */
+
 }
+    
 
 .Contact {
     background-color: rgb(244, 109, 150);
