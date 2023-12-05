@@ -42,23 +42,27 @@ header h1 {
 }
 
 .About-Me p {
-    margin: 50px 50px;
-    width: 100%;
+    display: flex;
+    flex: 5%
 }
 
+.About-Me img {
+    display: flex;
+}
 .flex-row2 {
     display: flex;
-    justify-content: space-around;
-    align-items: right;
+    justify-content: right;
     margin: 50px 50px;
-    width: 50%;
+    /* width: 50%; */
 }
-.img{
-    display: flex;
-    flex-wrap: right;
+
+.flex-row2 p {
+    margin-right: 20px;
+    /* width: 50%; */
 }
+
 .About-Me h2 {
-    text-align: center;
+    text-align: left;
     text-decoration-line: underline;
 }
 
@@ -75,7 +79,7 @@ header nav{
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/flowers.jpeg");
-    background-position: center;
+    background-position: right;
     background-size: contain;
 }
 
@@ -90,10 +94,16 @@ a {
     margin-bottom: 20px;
     color: rgb(105, 102, 102);
     text-decoration-line: underline;
+    list-style: none;
+    text-align: right;
 }
 
-.Work ul li a {
-   display: url("../images/refactor-website.png");
+.surf-report {
+    background-image: url(../images/refactor-website.png);
+    width: 150px;
+    height: 210px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .Contact {
@@ -118,9 +128,8 @@ a {
     display: inline-block;
 }
 
-.footer h3 {
-    padding: 30px;
-    clear: both;
+.footer {
+    padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: rgb(105, 102, 102);

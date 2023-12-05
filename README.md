@@ -3,7 +3,7 @@ Welcome to my website!
 In this website, you will find information on who I am and a brief history. 
 
 ## Description
-The purpose of this challenge to create a portfolio from the skills we have learned in class. 
+The purpose of this challenge to create a website from the skills we have learned in class. We are to create the website from scratch with and index, style sheet, and a read me file.
 
 ## User Story
 ```
